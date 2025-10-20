@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <title>HNG profile-card</title>
+</head>
+<body>
+ <div data-testid="test-profile-card"  class="box">
+  <div class="inner_box">
+    <div class="top_box">
+      
+       
+       <!-- NAV -->
+        <nav>
+          <div class="inner_nav">
+            <ul id="menubar">
+              <li ><a href="#" id="list"><i class="ri-home-4-fill"></i></a></li>
+              <li ><a href="#" id="list"><i class="ri-user-fill"></i></a></li>
+              <li ><a href="#" id="list"><i class="ri-phone-fill"></i></a></li>
+              <li><a href="#" id="list"><i class="ri-map-pin-2-fill"></i></a></li>
+            </ul>
+
+            <!-- hamburgar menu -->
+       <div class="togglebtn">
+<i class="ri-menu-3-line" onclick="openBtn()"></i>
+       </div>
+          </div>
+        </nav>
+      <div class="image_circle">
+        <!-- upload image area -->
+        
+        <img src="img/IMG_7013[1].JPG" alt="" data-testid="test-user-avatar" class="images">
+         
+      </div>
+    </div>
+
+    <div  class="text_area">
+     <label for="input-file"><i class="ri-camera-ai-fill"></i></label>
+      <input type="file" accept="image/jpeg, image/png, image/jpg" id="input-file">
+      <h2  data-testid="test-user-name" >Freedom Gabriel</h2>
+      <p data-testid="test-user-bio" >Hello Everyone 🖐️,<br> I’m a frontend developer passionate about building clean, responsive, and accessible interfaces.</p>
+      <p>
+       <!--  Current Time (ms): -->
+        <span data-testid="test-user-time" id="user-time"></span>
+      </p>
+      <div class="followup">
+       <section data-testid="test-user-hobbies" class="hobby">
+        <h3>Hobbies:</h3>
+        <ul>
+          <li>swimming</li>
+          <li>Designing</li>
+          <li>work-out</li>
+        </ul>
+      </section>
+
+ <section data-testid="test-user-dislikes" class="dislike">
+        <h3>Dislikes:</h3>
+        <ul>
+          <li> ☠️ code base</li>
+          <li>bugs</li>
+          <li>Noise</li>
+        </ul>
+      </section>
+      </div>
+      <!-- <div class="line">.</div> -->
+      <p></p>
+
+         <div data-testid="test-user-social-links" class="social">
+         <ul>
+          <li><a data-testid="test-user-social-twitter" href="https://twitter.com" target="_blank" rel="noopener noreferrer"><i class="ri-twitter-fill"></i></a></li>
+            <li><a data-testid="test-user-social-linkedin" href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><i class="ri-linkedin-box-fill"></i></a></li>
+              <li><a data-testid="test-user-social-github" href="https://github.com" target="_blank" rel="noopener noreferrer"><i class="ri-github-fill"></i></a></li>
+         </ul>
+        
+         </div>
+    </div>
+  </div>
+ </div>
+
+
+
+
+
+
+</body>
+<script src="app.js"></script>
+</body>
+</html>
