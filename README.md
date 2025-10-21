@@ -123,7 +123,7 @@ profile-card-project/
 
 1. Clone the repository  
    ```bash
-   
+   https://github.com/gabstrong/HNG-gabriel-pfc.git
 
 
 Navigate into the folder
