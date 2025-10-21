@@ -3,16 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+       <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
     <title>About Me </title>
     <link rel="stylesheet" href="about.css" />
   </head>
   <body>
     <main data-testid="test-about-page">
-      <h1>About Me</h1>
+<!--  PAGE BE SPILTED INTO TWO(LEFT & RIGHT) USING FLEXBOX -->
+        <div class="left">
+            <nav>
+                <div > <h1>About Me</h1></div>
+     
+ <div class="atags">
+    <button>
+    <a href="index.html">Home <i class="ri-home-4-fill"></i></a> 
+    </button>
+    <button>
+        <a href="about.html">About Me <i class="ri-user-fill"></i></a>
+    </button>       
+    
+       
+        </div>
+            </nav>
+
 
       <section data-testid="test-about-bio">
         <h2>Bio</h2>
-        <p>My name is Freedom Gabriel. I’m a frontend development intern at HNG, passionate about building simple and accessible user interfaces. I enjoy solving problems through design and code.</p>
+        <p>My name is Freedom Gabriel. I’m a frontend development 👨‍💻 intern at HNG, passionate about building simple and accessible user interfaces. I enjoy solving problems through design and code.</p>
+      </section>
    <section data-testid="test-about-goals">
         <h2>My Goals in This Program</h2>
         <ul>
@@ -22,7 +42,10 @@
         </ul>
       </section>
 
-      <section data-testid="test-about-confidence">
+        </div>
+      
+<div class="right">
+<section data-testid="test-about-confidence">
         <h2>Areas I Feel Less Confident About</h2>
         <p>Right now, I’m still improving my JavaScript skills and learning how to structure projects efficiently. I also want to get better at debugging and writing cleaner code.</p>
       </section>
@@ -36,9 +59,10 @@
         <p>This internship has pushed me out of my comfort zone. I’ve learned to work under deadlines and take feedback better. I’m excited for what’s ahead!</p>
       </section>
 
-      <nav class="page-nav">
-        <a href="index.html">Home</a> | <a href="contact.html">Contact</a>
-      </nav>
+     
+
+</div>
+      
     </main>
   </body>
 </html>

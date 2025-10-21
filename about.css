@@ -1,0 +1,214 @@
+body{
+    /* width: 100vw; */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(53, 50, 50);
+    /* overflow: hidden; */
+}
+main{
+    width: 90%;
+    height: 90%;
+    color: white;
+    /* background-color: brown; */
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 13px 8px 8px rgb(27, 26, 26);
+    
+    
+}
+main .left{
+    width: 50%;
+    height: 100%;
+    background-color: rgba(41, 25, 54, 0.425);
+    /* overflow: hidden; */
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 40px;
+    text-align: left;
+}
+main .right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: white;
+    padding: 20px 40px;
+     background-color: rgba(41, 25, 54, 0.425);
+     border-left: 2px solid purple;
+}
+main section p{
+    padding: 12px 20px;
+    background-color: blueviolet;
+    width: 60%;
+    border-radius: 20px;
+}
+main .left nav{
+  width: 100%;
+  height: 40%;
+  display: flex;
+  align-items: center;
+  justify-content:space-between ;
+  /* background-color: red; */
+  padding: 5px 15px;
+  flex-wrap: wrap;
+   border: 2px dotted purple;
+
+}
+main .left nav button{
+    padding: 10px 0px;
+  background-color: #0077b6;
+     border: none;
+     border-radius: 10px;
+    overflow: hidden;
+}
+main .left nav a{
+  text-decoration: none;
+  width: 100%;
+  color: white;
+  padding: 10px 20px;
+  background-color: #0077b6;
+  border-radius: 10px;
+}
+main .left  a:hover{
+   background-color: orangered;
+}
+main .left .atags{
+  margin-right: 0 20px;
+  display: inline-block;
+  padding: 0 40px;
+}
+
+@media (max-width: 430px) {
+  body {
+    /* padding: 0px; */
+    display: flex;
+    height: 220vh;
+    align-items: first baseline;
+    justify-content: center;
+    /* height: 100vh; */
+    /* width: 100vw; */
+    /* background-color: red; */
+    
+  }
+  main{
+    width: 80%;
+    height: 100%;
+    flex-direction: column;
+  }
+
+  
+  main .right{
+    width: 70%;
+    padding: 10px 40px;
+      display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: none;
+  }
+  main .left{
+    width: 70%;
+    padding: 10px 40px;
+    /* text-align: center; */
+       display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+main .left nav{
+ width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content:space-between ;
+  /* background-color: red; */
+  padding: 5px 15px;
+  flex-direction: column;
+
+}
+main .left nav .atags{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  
+
+}
+main section p {
+    text-align: center;
+    width: 90%;
+
+}
+
+}
+@media (max-width: 600px) {
+  body {
+    /* padding: 0px; */
+    display: flex;
+    height: 220vh;
+    align-items: first baseline;
+    justify-content: center;
+    /* height: 100vh; */
+    /* width: 100vw; */
+    /* background-color: red; */
+    
+  }
+  main{
+    width: 80%;
+    height: 100%;
+    flex-direction: column;
+    
+  }
+
+  
+  main .right{
+    width: 70%;
+    padding: 10px 40px;
+      display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: none;
+  }
+  main .left{
+    width: 70%;
+    padding: 10px 40px;
+    /* text-align: center; */
+       display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+main .left nav{
+  width: 100%;
+  height: 20vh;
+  /* background-color: #64a0c0; */
+  display: flex;
+  align-items: center;
+  justify-content:space-between ;
+  /* background-color: red; */
+  padding: 5px 15px;
+  flex-direction: column;
+
+}
+main .left nav .atags{
+  margin: 20px 0px;
+  padding: 0 20px;
+  /* display: block; */
+}
+main section p {
+    text-align: center;
+    width: 90%;
+
+}
+
+}
