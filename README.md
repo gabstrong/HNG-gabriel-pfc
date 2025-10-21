@@ -91,6 +91,11 @@ an *About Me* page and a *Contact Us* page (with form validation).
 - Form validation using plain JavaScript  
 - data-testid attributes for all testable elements  
 - Hosted live on Netlify
+- 
+## 📷 screenshot
+
+![Profile Card Preview](./screenshot.png)
+<img width="1366" height="768" alt="2025-10-21 23-09-43-93" src="https://github.com/user-attachments/assets/26ec4406-5e2d-4d12-8d3b-1cc0a52bf65b" />
 
 ---
 profile-card-project/
