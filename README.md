@@ -96,6 +96,10 @@ an *About Me* page and a *Contact Us* page (with form validation).
 
 ![Profile Card Preview](./screenshot.png)
 <img width="1366" height="768" alt="2025-10-21 23-09-43-93" src="https://github.com/user-attachments/assets/26ec4406-5e2d-4d12-8d3b-1cc0a52bf65b" />
+<img width="1366" height="768" alt="2025-10-21 23-10-18-79" src="https://github.com/user-attachments/assets/545a6fdf-dff4-4c8e-a443-2254a1c2d5da" />
+<img width="1366" height="768" alt="2025-10-21 23-11-48-36" src="https://github.com/user-attachments/assets/3d22b7a6-cd8c-4929-a17e-6d000c935bcb" />
+
+
 
 ---
 profile-card-project/
