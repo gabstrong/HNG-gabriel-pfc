@@ -136,5 +136,9 @@ profile-card-project/
 
 
 Navigate into the folder
+## 🚀 Live Demo
 
+View the live site here:
+👉
+[https://hng-profle-card-stage1.netlify.app](https://hng-profle-card-stage1.netlify.app)
 
